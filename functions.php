@@ -229,7 +229,7 @@ if (!function_exists('hello_elementor_body_open')) {
 /* Show wp login form*/
 
 add_action('wp_footer', function () {
-	//wp_login_form();
-	wp_loginout();
+	wp_login_form();
+	//wp_loginout();
 	//wp_register();
 });
